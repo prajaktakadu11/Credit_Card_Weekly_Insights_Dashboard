@@ -39,7 +39,7 @@ The primary objective of this project is to develop a comprehensive and interact
 
 And then dataset was cleaned and transformed, it was ready to the data modeled.
 
-![Data model]()
+![Data model](https://github.com/prajaktakadu11/Credit_Card_Weekly_Insights_Dashboard/blob/main/Data/Data%20model.PNG)
 
 # Data Anlysis (DAX):
 
@@ -95,18 +95,18 @@ Revenue = 'credit_details'[annual_fees] + 'credit_details'[total_trans_amt] + 'c
  ALL('credit_details'),
  'credit_details'[week_num2] = MAX('credit_details'[week_num2])-1))
 ```
-7. Week over week revenue :
+7. Week over week revenue :  To calculate the Week-over-Week (WoW) revenue growth
  ```
- WOW_revenue = DIVIDE(
+[ WOW_revenue = DIVIDE(
  (credit_details[Current_Week_revenue]-credit_details[Previous_Week_revenue]),
  credit_details[Previous_Week_revenue])
  ```
 
 # Build Dashboard or report:
 
-![Credit card transaction dashboard]()
+![Credit card transaction dashboard](https://github.com/prajaktakadu11/Credit_Card_Weekly_Insights_Dashboard/blob/main/Data/Credit%20card%20transaction%20report.PNG)
 
-![Credit card customer dashboard]()
+![Credit card customer dashboard](https://github.com/prajaktakadu11/Credit_Card_Weekly_Insights_Dashboard/blob/main/Data/Credit%20card%20customer%20report.PNG)
 
 # Project Insights:
   The Credit Card Weekly Insights Dashboard provides a powerful tool for stakeholders to monitor and analyze credit card operations. Key insights include:
