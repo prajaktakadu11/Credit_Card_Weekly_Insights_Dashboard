@@ -4,7 +4,7 @@
 - Introduction
 - Objective
 - Tools and Technologies 
-- Data Analyis
+- Data Analysis
 - Data Modeling
 - Data Analysis (DAX)
 - Build Dashboard or report
@@ -41,7 +41,7 @@ And then dataset was cleaned and transformed, it was ready to the data modeled.
 
 ![Data model](https://github.com/prajaktakadu11/Credit_Card_Weekly_Insights_Dashboard/blob/main/Data/Data%20model.PNG)
 
-# Data Anlysis (DAX):
+# Data Analysis (DAX):
 
 Key Measures:
  1. AgeGroup: To categorize customers into different age groups.
